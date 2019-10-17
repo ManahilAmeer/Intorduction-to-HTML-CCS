@@ -42,24 +42,72 @@
             display: inline-block;
             background:gainsboro;
             width:1400px;
-            height: 200px;
+            height: 300px;
             color: gray;
             font-family: lato;
             text-align: center;
         }
-        #beautiful{
-            text-align: left;
+        #flex{
+            text-align: center;
             font-family: lato;
             font-style: normal;
             color:gray;
+            font-size: 22px;
+        }
+        #beautiful{
+            height: 300px;
+            text-align: left;
+            font-family: lato;
+            font-style: normal;
+
             transform: translateX(100px);
         }
+        #integrate{
+            font-family: lato;
+            font-style: normal;
+            color:gray;
+            text-align: left;
+            height: 300px;
+            transform: translateX(700px);
+        }
+        #iphone{
+            position: absolute;
+            top: 157px;
+            size: 10px;
+            width:350px;
+            transform: translateX(230px);
+        }.button{
+            background-color: royalblue;
+            border:none;
+            padding: 15px 32px; 
+            color: white;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+        }
+        .adobe{
+            width:40px;
+            }
+            .flex-container {
+  display: flex;
+  border:thistle;
+  border-block:inherit;
+}.flex-container > div {
+  background-color:khaki;
+  margin: 20px;
+  padding: 200px;
+  font-size: 30px;
+  text-align: center;
+}
     </style>
     <head>
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css"></head>
     <body>
         <header>
             <img src="http://digitalimagemakerworld.com/images/sky-wallpaper/36455825-sky-wallpaper.jpg" alt="   Image here" width=1400px height=500px>
+            <img id ="iphone" src="iphone1.png" alt="iphone">
             <div id="Social">
                     <i class="fab fa-facebook-square"></i>
                     <span style="font-family: lato">Like____</span>         
@@ -76,42 +124,60 @@
             </div>
             <div id="header_text">
                 <h1 style="font-family: lato">Awesome landing page</h1>
-                <p>Be amazed by the best looking bootstrap landing <br>
-                   page on web!Your new app deserves an <br>
-                   amazing page to show all of its features.Clear visuals <br>
-                   light colors and beautifully aligned elements - they <br>
+                <p>Be amazed by the best looking bootstrap landing <br>page on web!Your new app deserves an <br>
+                   amazing page to show all of its features.Clear visuals <br>light colors and beautifully aligned elements - they <br> 
                    all try to make users aware of your great app <br> features!
                 </p>
                 <a class="btn" ><i class="fab fa-apple"></i> <span>Appstore</span></a>
-                <a><i class="fab fa-android"></i></a>
-                <a href="">
-                <i class="fab fa-windows"></i></a>
+                <i class="fab fa-android"></i>
+                <i class="fab fa-windows"></i>
              </div>
         </header>
         <div id="after-haeder">
+            <br><br>
             <h3>FRIENDS IN HIGH PLACES</h3>
             <p>Build customer confidence by listing yuor users!Anyone who has used your service and has pleased with it <br>
             should have a place here! From fortune 500 to start-ups,all your app enthusiasts will be glad to be featuerd in this <br>
         section.Moreover,users will feel confident someone vouching for your product.<br>
         </p>
-        <i class="fab fa-android"></i>
+        <br>
+        <img class="adobe" src="adobe1.png" alt="adobe">
         <span>Adobe</span>
-        <i class="fas fa-address-book"></i>
+        <img class ="adobe" src="zendesk.png" alt="zendesk">
+        <span>Zendesk</span>
+        <img class ="adobe" src="ebay.png" alt="ebay">
+        <span>ebay</span>
+        <img class ="adobe" src="evernote.png" alt="evernote">
+        <span>evernote</span>
+        <img class ="adobe" src="airbnb.png" alt="airbnb">
+        <span>airbnb</span>
     </div>
 <div id="beautiful">
-    <h3>IT'S BEAUTIFUL</h3>
-    <p>And your app is probably socail,awesome, easy-to-use <br>
-     and vital to users.This is the place to enlist all <br>
-    the good things that your app has to share. Focus on <br>
-the benefits that the users will receive. Try to combine <br>
-imaginery with text and show meaningful printscreens <br>
-from your app, that will make it clear what exactly the <br>
-basic functions are.
-<br><br>
-Try to make it very clear for the people browsing the <br>
-page that this product will enrich their life and will <br>
-make a nice addition to the homescreen. </p>
-</div>
-
+        <h3>IT'S BEAUTIFUL</h3>
+        <p>And your app is probably socail,awesome, easy-to-use <br>and vital to users.This is the place to enlist all <br>
+         the good things that your app has to share. Focus on <br>the benefits that the users will receive. Try to combine <br>
+         imaginery with text and show meaningful printscreens <br>from your app, that will make it clear what exactly the <br>
+         basic functions are.
+     <br><br>
+         Try to make it very clear for the people browsing the <br>
+         page that this product will enrich their life and will <br>
+         make a nice addition to the homescreen. </p>
+  </div>
+  <div id="integrate">
+    <br>
+    <h3>EASY TO INTEGRATE</h3>
+    <p>With all the apps that users love! Make it easy <br>for users to share ,like, post and tweet their <br> 
+       favourite things from the app. Be sure to let <br>users know they continue to remain <br>
+       connected while using your app!</p>
+ <button class ="button">Get Free Demo</button>
+ </div>
+ <div>
+     <p id="flex">FEATURES</p>
+        <div class="flex-container">
+                <div>Online Customers Management </div>
+                <div>2</div>
+                <div>3</div>  
+              </div>
+ </div>
     </body>
 </html>
