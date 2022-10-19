@@ -4,6 +4,10 @@
 x = 5;
 y = 6;
 z = x + y;
+
+a = 9;
+b = 7;
+c = a - b;
 </code>
 html computer code elemets
 
